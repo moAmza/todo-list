@@ -7,7 +7,7 @@ import {
   ActionOnFinished,
   EditAction,
   TasksSorting,
-} from "./tableActionsButtons";
+} from "./TableActionsButtons";
 
 export default function Table() {
   const { filteredTasks } = useContext(TaskContext);
